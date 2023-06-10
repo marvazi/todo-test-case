@@ -1,0 +1,71 @@
+.app-container {
+  width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 14px 16px #ccc;
+  border-radius: 7px;
+}
+li {
+  list-style: none;
+}
+.button_filter {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0071f0;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+}
+.button_filter:focus,
+.button_filter:hover {
+  background-color: rgb(22, 123, 106);
+}
+.task_inp {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 9px;
+  background-color: transparent;
+}
+.task-li {
+  font-size: 23px;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+.uncompleted {
+  margin-left: 10px;
+  top: 2px;
+  cursor: pointer;
+}
+.completed {
+  margin-left: 10px;
+  top: 2px;
+  cursor: pointer;
+}
+.delete {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.delete:hover {
+  box-shadow: 0 14px 16px #ccc;
+  transition: 0.3s;
+}
+.add {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0071f0;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+}
+.add:focus,
+.add:hover {
+  background-color: rgb(22, 123, 106);
+}
